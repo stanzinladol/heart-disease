@@ -6,7 +6,7 @@ st.title("My Project Title")
 st.write("A short description of what this app does.")
 
 # Load data
-df = pd.read_csv("heartdisease") 
+df = pd.read_csv("heartdisease/heart.csv")
 
 # Show the data
 st.subheader("Dataset")
